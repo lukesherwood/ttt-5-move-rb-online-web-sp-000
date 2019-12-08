@@ -9,5 +9,4 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
   space = input.to_i
-  move = display_board[space - 1]
 end
