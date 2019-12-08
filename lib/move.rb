@@ -12,6 +12,8 @@ def input_to_index(input)
   
 end
 
-def move(board, index, character="X")
-  
+def mod_display_board(board, index, character="X")
+board[index] = character
+
+puts board 
 end
